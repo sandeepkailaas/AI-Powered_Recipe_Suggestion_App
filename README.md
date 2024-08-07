@@ -15,48 +15,7 @@ Optimizes ingredient usage, ensuring nothing goes to waste.
 
 Users input a list of ingredients they have on hand, and the system generates a list of recipes that can be made with those ingredients. The solution is particularly useful in everyday meal planning and for individuals looking to reduce food waste. Primary users are home cooks and individuals seeking meal planning assistance.
 
-      +------+
-      | Start|
-      +------+
-          |
-          v
- +-----------------+
- | Collect Ingredients |
- +-----------------+
-          |
-          v
- +----------------------+
- | Do you have all      |
- | the ingredients?     |
- +----------------------+
-         / \
-       /     \
-     v        v
-+--------+ +----------------+
-|  Yes    | | No (Get missing |
-| Proceed | | ingredients)    |
-+--------+ +----------------+
-         |
-         v
-+----------------------+
-| Mix Ingredients      |
-+----------------------+
-         |
-         v
-+----------------------+
-| Bake at 350 degrees  |
-+----------------------+
-         |
-         v
-+----------------------+
-| Cool & Serve         |
-+----------------------+
-         |
-         v
-     +------+
-     | End  |
-     +------+
-
+![Recipe FLow](https://github.com/user-attachments/assets/02ba1bbe-60cf-4b2a-ba82-a1f89e8cc149)
 
 ## Data sources and AI methods
 
